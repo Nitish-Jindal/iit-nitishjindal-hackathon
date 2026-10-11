@@ -4,7 +4,7 @@
 **Candidate Name:** Nitish Jindal  
 **College Email ID:** nitishjindal@kgpian.iitkgp.ac.in  
 **College / Campus:** Indian Institute of Technology Kharagpur  
-**Demo Video Link:** [YouTube Walkthrough](#) *(to be added post-recording)*  
+**Demo Video Link:** [YouTube Walkthrough](https://youtu.be/tWRWtLzmIlI?si=0JpKW60Omz42jQTW) *(to be added post-recording)*  
 **Slide Deck Link:** `/docs/presentation.pdf` in this repository  
 
 ---
