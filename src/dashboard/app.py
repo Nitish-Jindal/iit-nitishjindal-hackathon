@@ -661,10 +661,10 @@ elif page == "🔬 Analyze Text":
     with col2:
         st.markdown("**Quick examples:**")
         examples = {
-            "📈 Bullish Earnings": "Apple Inc. blows past analyst expectations with record quarterly revenue of \$94.9B, driven by strong iPhone 15 and services growth.",
+            "📈 Bullish Earnings": "Apple Inc. blows past analyst expectations with record quarterly revenue of $94.9B, driven by strong iPhone 15 and services growth.",
             "📉 Credit Downgrade": "Moody's downgrades XOM corporate bonds to junk status amid rising leverage and deteriorating cash flows in weak oil price environment.",
-            "🌍 Geopolitical": "Escalating tensions in the Middle East push crude oil past \$130/barrel, triggering emergency OPEC meeting and global market sell-off.",
-            "🏦 M&A Event": "Microsoft confirms acquisition of Activision Blizzard for \$68.7B in all-cash deal, subject to regulatory clearance.",
+            "🌍 Geopolitical": "Escalating tensions in the Middle East push crude oil past $130/barrel, triggering emergency OPEC meeting and global market sell-off.",
+            "🏦 M&A Event": "Microsoft confirms acquisition of Activision Blizzard for $68.7B in all-cash deal, subject to regulatory clearance.",
             "📊 Rate Hike": "Federal Reserve raises interest rates by 75bps, signaling continued tightening to combat 8.5% CPI inflation amid recession fears.",
         }
         selected = st.radio("Pick example:", list(examples.keys()), label_visibility="collapsed")
