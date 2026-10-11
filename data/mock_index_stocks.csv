@@ -1,0 +1,21 @@
+ticker,name,sector,initial_weight
+AAPL,Apple Inc.,Technology,0.08
+MSFT,Microsoft Corp.,Technology,0.08
+GOOGL,Alphabet Inc.,Technology,0.07
+AMZN,Amazon.com Inc.,Consumer Disc.,0.07
+NVDA,Nvidia Corp.,Technology,0.06
+META,Meta Platforms Inc.,Communication,0.06
+TSLA,Tesla Inc.,Consumer Disc.,0.05
+JPM,JPMorgan Chase Co.,Financials,0.05
+JNJ,Johnson Johnson,Health Care,0.05
+V,Visa Inc.,Financials,0.05
+PG,Procter Gamble Co.,Consumer Staples,0.04
+UNH,UnitedHealth Group,Health Care,0.04
+HD,Home Depot Inc.,Consumer Disc.,0.04
+BAC,Bank of America Corp.,Financials,0.04
+MA,Mastercard Inc.,Financials,0.04
+XOM,Exxon Mobil Corp.,Energy,0.04
+CVX,Chevron Corp.,Energy,0.04
+ABBV,AbbVie Inc.,Health Care,0.04
+COST,Costco Wholesale Corp.,Consumer Staples,0.03
+MRK,Merck Co. Inc.,Health Care,0.03

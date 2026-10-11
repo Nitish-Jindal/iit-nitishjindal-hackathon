@@ -1,0 +1,20 @@
+id,name,asset_type,notional,base_value,ticker,rating,maturity_years,duration,coupon,delta,vega,dv01,spread_bps,metadata
+L001,TechCorp Revolving Credit Facility,loan,500,498.5,AAPL,A,3.0,4.5,0.035,0.0,0.0,0.0,80,{}
+L002,EnergyFirm Term Loan B,loan,300,295.0,XOM,BBB,5.0,4.5,0.055,0.0,0.0,0.0,150,{}
+L003,RetailGroup Leveraged Loan,loan,200,188.0,HD,BB,7.0,4.5,0.075,0.0,0.0,0.0,350,{}
+L004,PharmaCo Acquisition Finance,loan,400,402.1,JNJ,AA,4.0,4.5,0.03,0.0,0.0,0.0,60,{}
+L005,AutoMaker Working Capital Loan,loan,150,147.3,TSLA,BB+,2.0,4.5,0.065,0.0,0.0,0.0,280,{}
+GB001,US Treasury 10Y Note,gov_bond,600,598.0,,AAA,10.0,8.7,0.042,0.0,0.0,0.0,0.0,{}
+GB002,US Treasury 5Y Note,gov_bond,400,400.5,,AAA,5.0,4.5,0.038,0.0,0.0,0.0,0.0,{}
+GB003,UK Gilt 7Y,gov_bond,200,197.8,,AA+,7.0,6.1,0.04,0.0,0.0,0.0,0.0,{}
+CB001,Microsoft Senior Unsecured 5Y,corp_bond,250,252.3,MSFT,AAA,5.0,4.6,0.039,0.0,0.0,0.0,35,{}
+CB002,Amazon Investment-Grade Bond 7Y,corp_bond,300,301.0,AMZN,AA,7.0,6.2,0.043,0.0,0.0,0.0,55,{}
+CB003,Bank of America Subordinated Debt,corp_bond,200,196.5,BAC,A-,10.0,8.1,0.062,0.0,0.0,0.0,120,{}
+CB004,High-Yield Energy Bond,corp_bond,150,139.0,CVX,BB,6.0,5.0,0.085,0.0,0.0,0.0,400,{}
+IRS001,USD 5Y Pay-Fixed Swap (Receive Float),irs,500,3.2,,N/A,5.0,4.5,0.045,0.0,0.0,0.25,0.0,"{""pay_leg"": ""fixed"", ""receive_leg"": ""SOFR""}"
+IRS002,USD 10Y Receive-Fixed Swap,irs,300,-1.8,,N/A,10.0,4.5,0.045,0.0,0.0,-0.45,0.0,"{""pay_leg"": ""SOFR"", ""receive_leg"": ""fixed""}"
+IRS003,EUR 3Y Pay-Fixed Swap,irs,200,1.1,,N/A,3.0,4.5,0.045,0.0,0.0,0.12,0.0,{}
+ED001,S&P 500 Call Spread (Delta-hedged Book),equity_deriv,100,8.5,,N/A,5.0,4.5,0.045,0.35,2.1,0.0,0.0,"{""underlying"": ""SPX"", ""expiry"": ""3M""}"
+ED002,Tech Sector Put Options Portfolio,equity_deriv,80,12.3,QQQ,N/A,5.0,4.5,0.045,-0.6,3.8,0.0,0.0,"{""underlying"": ""QQQ"", ""expiry"": ""6M""}"
+CDS001,CDS Protection Sold on HY Basket,cds,250,15.0,,N/A,5.0,4.5,0.045,0.0,0.0,0.0,350,"{""position"": ""protection_seller""}"
+CDS002,CDS Protection Bought on IG Index,cds,400,-8.5,,N/A,5.0,4.5,0.045,0.0,0.0,0.0,80,"{""position"": ""protection_buyer""}"

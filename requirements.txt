@@ -1,0 +1,39 @@
+# Core NLP & ML
+transformers==4.44.2
+torch==2.4.1
+sentencepiece==0.2.0
+protobuf==5.27.3
+
+# API Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+
+# Data Processing
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.14.1
+
+# Visualization & Dashboard
+streamlit==1.39.0
+plotly==5.24.1
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# HTTP & Data Ingestion
+requests==2.32.3
+feedparser==6.0.11
+httpx==0.27.2
+
+# Storage
+sqlalchemy==2.0.35
+
+# Utilities
+python-dotenv==1.0.1
+tqdm==4.66.5
+loguru==0.7.2
+rich==13.8.1
+schedule==1.2.2
+
+# Dev / Testing
+pytest==8.3.3
